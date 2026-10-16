@@ -1,0 +1,54 @@
+# topa-webmaster:khuon-deploy:v2 — tệp này do TOPA AI Webmaster tự sinh.
+# Sửa tay cũng được: còn dòng dấu nhận ở trên thì lần deploy sau app sẽ
+# ghi đè để nâng cấp. Muốn giữ bản của mình thì XOÁ dòng đó đi.
+#
+# Việc nó làm: kiểm bản sao, rồi đăng toàn bộ nội dung kho lên GitHub Pages.
+# Không cần khoá SSH, không cần máy chủ riêng, không cần một bí mật nào.
+name: Deploy
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Hai lần đăng chồng nhau sẽ tranh nhau cùng một site Pages. Xếp hàng thay vì
+# huỷ lần đang chạy: huỷ giữa chừng có thể để lại site ở trạng thái nửa vời.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  # CỔNG KIỂM — chạy TRƯỚC, và job đăng khai needs trỏ vào nó.
+  #
+  # Bản sao hỏng KHÔNG tự báo: công cụ clone in "87 tệp, thiếu: 0" rồi mở ra
+  # là trang trắng hoặc vỡ ảnh hàng loạt. Cổng này đo bản sao như người dùng
+  # thật sẽ thấy — lần chạy đầu trên một kho thật bắt được 97 liên kết hỏng.
+  #
+  # Đăng thẳng không kiểm thì thứ đi ra mạng là bản hỏng, và người phát hiện
+  # ra đầu tiên là khách.
+  kiem:
+    name: Kiểm kho trước khi đăng
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Soát bản sao
+        run: node .topa/kiem-tra-site.mjs
+
+  deploy:
+    needs: kiem
+    runs-on: ubuntu-latest
+    environment: github-pages
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/configure-pages@v6
+      # Chốt phụ: xem chú thích Jekyll ở đầu lib/deploy-workflow.js.
+      - run: touch .nojekyll
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: "."
+      - uses: actions/deploy-pages@v5
