@@ -1,0 +1,216 @@
+{
+  "hieu": {
+    "ten": "TOPA Kế toán",
+    "web": "https://top-ai.vn/",
+    "mo": "Phần mềm tải và soát hóa đơn điện tử, tờ khai thuế, BHXH cho kế toán."
+  },
+  "lienHe": {
+    "zalo": "+84961959899",
+    "email": "contact@top-ai.vn"
+  },
+  "seo": {
+    "tieuDe": "Tải hóa đơn điện tử hàng loạt từ cổng thuế | TOPA",
+    "moTa": "Tải XML, PDF hóa đơn mua vào, bán ra và hóa đơn máy tính tiền cho nhiều mã số thuế. Tự soát hóa đơn hủy, trùng, thiếu file.",
+    "anhOg": "",
+    "ogAlt": "Tải hóa đơn điện tử hàng loạt từ cổng thuế | TOPA"
+  },
+  "sanPham": {
+    "loai": "Product",
+    "ten": "TOPA Accounting Tool",
+    "moTa": "Phần mềm Windows tải hàng loạt hóa đơn điện tử mua vào, bán ra, máy tính tiền từ cổng thuế, tự soát lỗi và xuất Excel.",
+    "tai": "https://top-ai.vn/san-pham/topa-accounting-tool"
+  },
+  "menu": [
+    {
+      "chu": "Tính năng",
+      "link": "#tinh-nang"
+    },
+    {
+      "chu": "Bảng giá",
+      "link": "#bang-gia"
+    },
+    {
+      "chu": "Câu hỏi",
+      "link": "#cau-hoi"
+    }
+  ],
+  "nutThanh": "Mua bản quyền",
+  "hero": {
+    "nhan": "Dành cho kế toán dịch vụ và đại lý thuế",
+    "tieuDe": "Hóa đơn cả kỳ,",
+    "toa": "tải về trong một lần.",
+    "moTa": "TOPA lấy danh sách hóa đơn mua vào, bán ra (cả hóa đơn máy tính tiền) từ cổng hóa đơn điện tử, tải XML và PDF hàng loạt cho nhiều mã số thuế, rồi tự soát hóa đơn bị hủy, trùng, thiếu file trước khi bạn kê khai.",
+    "nutChinh": {
+      "chu": "Mua bản quyền — 499.000đ",
+      "link": "https://top-ai.vn/san-pham/topa-accounting-tool"
+    },
+    "nutPhu": {
+      "chu": "Nhận bản miễn phí",
+      "link": "https://top-ai.vn/san-pham/topa-accounting-tool"
+    },
+    "duoi": [
+      {
+        "chu": "Windows 10/11"
+      },
+      {
+        "chu": "Hóa đơn và mật khẩu cổng nằm trên máy bạn"
+      },
+      {
+        "chu": "Đổi máy không mất bản quyền"
+      }
+    ]
+  },
+  "soLieu": [
+    {
+      "so": 2,
+      "hau": " loại hóa đơn",
+      "nhan": "thường và máy tính tiền, mua vào và bán ra"
+    },
+    {
+      "so": 5,
+      "hau": " mã số thuế",
+      "nhan": "trên một bản quyền PRO"
+    },
+    {
+      "so": 6,
+      "hau": " quy tắc soát",
+      "nhan": "chạy sau mỗi lần đồng bộ"
+    }
+  ],
+  "truDau": {
+    "nhan": "Một lần đồng bộ, đủ hóa đơn",
+    "tieuDe": "Cuộn xuống để xem từng việc app làm thay bạn"
+  },
+  "tru": [
+    {
+      "tieuDe": "Đủ cả hai tab của cổng",
+      "moTa": "Lấy hóa đơn điện tử thường và hóa đơn khởi tạo từ máy tính tiền, mua vào và bán ra; cột \"Nguồn HĐ\" ghi rõ từng hóa đơn đến từ đâu."
+    },
+    {
+      "tieuDe": "Tải hàng loạt XML và PDF",
+      "moTa": "Chọn kỳ, tích hóa đơn, tải cả lô. Hóa đơn mà cổng không có XML gốc vẫn được lưu dữ liệu chi tiết để xem và xuất Excel."
+    },
+    {
+      "tieuDe": "Không thiếu hóa đơn khi cổng chậm",
+      "moTa": "Cổng trả danh sách thiếu thì app tự hỏi lại và gộp đủ; tháng nào chưa đồng bộ đủ thì báo ngay trên màn hình."
+    },
+    {
+      "tieuDe": "Soát lỗi sau mỗi lần đồng bộ",
+      "moTa": "Hóa đơn đầu vào bị người bán hủy, hóa đơn trùng, thiếu XML hoặc PDF, nhập sau kỳ kê khai, thuế suất sai kỳ giảm thuế, hóa đơn không có tiền hàng."
+    },
+    {
+      "tieuDe": "Lọc, cộng tiền, xuất Excel",
+      "moTa": "Lọc theo mua vào/bán ra, nguồn, trạng thái tải, loại hóa đơn, loại tiền, khoảng ngày; cộng tổng các dòng đã chọn; xuất CSV, Excel, XML nén ZIP và mẫu nhập MISA."
+    },
+    {
+      "tieuDe": "Thư mục ngăn nắp, dữ liệu ở máy bạn",
+      "moTa": "Mỗi công ty một thư mục theo mã số thuế và năm; hóa đơn và mật khẩu cổng lưu trên máy bạn, mật khẩu được mã hóa."
+    }
+  ],
+  "gia": {
+    "nhan": "Bảng giá",
+    "tieuDe": "Trả một lần, dùng trọn đời",
+    "moTa": "Giá ưu đãi 499.000đ (giá gốc 799.000đ). Có gói miễn phí để chạy thử.",
+    "goi": [
+      {
+        "ten": "PRO",
+        "gia": "499.000đ",
+        "giaSo": "499000",
+        "donVi": "trọn đời",
+        "noiBat": true,
+        "y": [
+          "5 mã số thuế",
+          "Không giới hạn số hóa đơn mỗi lần tải",
+          "Thêm tờ khai thuế, C12 BHXH, sổ hộ kinh doanh, tra mã số thuế rủi ro",
+          "Cập nhật miễn phí trọn đời",
+          "1 thiết bị, đổi máy miễn phí"
+        ],
+        "nut": {
+          "chu": "Mua bản quyền — 499.000đ",
+          "link": "https://top-ai.vn/san-pham/topa-accounting-tool"
+        }
+      }
+    ]
+  },
+  "hoi": {
+    "nhan": "Câu hỏi thường gặp",
+    "tieuDe": "Câu hỏi thường gặp",
+    "muc": [
+      {
+        "h": "Có tải được hóa đơn máy tính tiền không?",
+        "d": "Có. App lấy cả tab hóa đơn thường và tab hóa đơn khởi tạo từ máy tính tiền; cột \"Nguồn HĐ\" ghi rõ từng hóa đơn."
+      },
+      {
+        "h": "Hóa đơn có bị đưa lên máy chủ không?",
+        "d": "Không. Hóa đơn và mật khẩu cổng nằm trên máy bạn; máy chủ TOPA chỉ lo bản quyền, cập nhật và hỗ trợ xác thực tự động."
+      },
+      {
+        "h": "Một bản quyền dùng cho mấy công ty?",
+        "d": "Gói miễn phí 1 mã số thuế; PRO và ADVANCE 5 mã số thuế."
+      },
+      {
+        "h": "Gói miễn phí giới hạn gì?",
+        "d": "1 mã số thuế và tối đa 50 hóa đơn mỗi lần tải."
+      },
+      {
+        "h": "Đổi máy có mất bản quyền không?",
+        "d": "Không. Kích hoạt trên máy mới thì máy cũ tự nhả."
+      },
+      {
+        "h": "Chạy trên máy Mac được không?",
+        "d": "Chưa. App chạy trên Windows 10/11."
+      }
+    ]
+  },
+  "chot": {
+    "tieuDe": "Thử với chính hóa đơn của bạn",
+    "moTa": "Cài gói miễn phí, đồng bộ một kỳ, xem app lấy đủ hóa đơn chưa.",
+    "nutChinh": {
+      "chu": "Mua bản quyền — 499.000đ",
+      "link": "https://top-ai.vn/san-pham/topa-accounting-tool"
+    },
+    "nutPhu": {
+      "chu": "Nhận bản miễn phí",
+      "link": "https://top-ai.vn/san-pham/topa-accounting-tool"
+    }
+  },
+  "chan": {
+    "mo": "Phần mềm tải và soát hóa đơn điện tử, tờ khai thuế, BHXH cho kế toán.",
+    "cot": [
+      {
+        "tieuDe": "Sản phẩm",
+        "muc": [
+          {
+            "chu": "Tính năng",
+            "link": "#tinh-nang"
+          },
+          {
+            "chu": "Bảng giá",
+            "link": "#bang-gia"
+          },
+          {
+            "chu": "Câu hỏi thường gặp",
+            "link": "#cau-hoi"
+          }
+        ]
+      },
+      {
+        "tieuDe": "Hỗ trợ",
+        "muc": [
+          {
+            "chu": "Zalo +84961959899",
+            "link": "https://zalo.me/84961959899"
+          },
+          {
+            "chu": "contact@top-ai.vn",
+            "link": "mailto:contact@top-ai.vn"
+          }
+        ]
+      }
+    ]
+  },
+  "maGa4": "",
+  "maSearchConsole": "",
+  "mien": "https://anh1712.github.io/web-topa-hoa-don/",
+  "ngayCapNhat": "2026-10-16"
+}

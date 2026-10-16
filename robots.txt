@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anh1712.github.io/web-topa-hoa-don/sitemap.xml
